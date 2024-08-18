@@ -1,0 +1,15 @@
+/* gobal css */
+
+:root {
+   --color1: #FFFBF5;
+   --color2: #F7EFE5; 
+   --color3: #C3ACD0;
+   --color4: #7743DB;
+}
+
+*{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
+}
+
+/* gobal css */
