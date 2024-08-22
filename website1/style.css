@@ -218,3 +218,70 @@
 .heros-cta-2:hover::before{
     height: 100%;
 }
+
+
+.about-us-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    padding: calc(3rem + var(--padding-y)) calc(5rem + var(--padding-x));
+}
+
+.text-block-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text-block-1 h1{
+    font-size: 3rem;
+    color: var(--color4);
+}
+
+.text-block-2{
+    text-align: end;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-block-2 img{
+    width: 100%;
+}
+
+.about-icons{
+    font-size: 1.8rem;
+    color: var(--color4);
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+} 
+
+.about-img-container{
+    position: relative;
+}
+
+.about-img-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 251, 245,.7);
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 50%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease ;
+}
+
+.about-img-container:hover .about-img-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
